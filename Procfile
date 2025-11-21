@@ -1,6 +1,1 @@
-Flask
-numpy
-pandas
-scikit-learn
-joblib
-gunicorn
+web: gunicorn app:app
