@@ -11,7 +11,7 @@ import numpy as np
 app = Flask(__name__)
 
 # load the trained pipeline (predicts log(price))
-model = joblib.load("models/model.pkl")
+model = joblib.load("model.pkl")
 
 # expected feature columns in the same order used for training
 FEATURES = ['area_type', 'location', 'total_sqft', 'bath', 'balcony', 'bhk']
